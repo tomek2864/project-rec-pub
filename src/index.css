@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1,
+  .h1 {
+    @apply text-2xl font-light;
+  }
+
+  h2,
+  .h2 {
+    @apply text-xl font-light;
+  }
+
+  body,
+  .p {
+    @apply text-base font-normal leading-5 font-sans;
+  }
+
+  .layout {
+    max-width: 1440px;
+
+    @apply mx-auto box-content px-8;
+  }
+
+  .layout-wider {
+    max-width: 1920px;
+
+    @apply mx-auto box-content p-2 px-12;
+  }
+}
