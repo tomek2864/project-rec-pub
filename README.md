@@ -1,4 +1,4 @@
-# The recruitment project for NCBR
+# The rec project
 
 This is a [React](https://reactjs.org) + [TypeScript](https://www.typescriptlang.org/) boilerplate built with [Vite](https://vitejs.dev).
 
